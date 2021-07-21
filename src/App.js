@@ -2,7 +2,12 @@ import './App.css';
 import Card from './Card.js';
 import HorizontalScroll from 'react-scroll-horizontal';
 
-import sampleImg from './images/sample.png';
+import formio from './assets/formio.png';
+import proevento from './assets/proevento-home.png';
+import weatherjournal from './assets/weatherjournal.png';
+import inorout from './assets/inorout.png';
+
+import resume from './assets/Chloe_Shigeoka_Resume.pdf';
 
 function App() {
 
@@ -17,23 +22,23 @@ function App() {
 
           <Card title="USC Financial Aid Forms"
             tags="#front-end #form.io"
-            bgImg={sampleImg}
+            bgImg={formio}
             position="top"></Card>
           <Card title="ProEvento"
             tags="#front-end #back-end #react"
-            bgImg={sampleImg}></Card>
+            bgImg={proevento}></Card>
           <Card title="Weather Journal"
-            tags="#front-end #back-end #PHP"
-            bgImg={sampleImg}
+            tags="#front-end #back-end #php"
+            bgImg={weatherjournal}
             position="top"></Card>
           <Card title="InOrOut"
-            tags="#front-end #back-end #Java"
-            bgImg={sampleImg}></Card>
+            tags="#front-end #back-end #java"
+            bgImg={inorout}></Card>
           
           <div className="End">
             <div className="Links">
               <div className="Main-text">CHECK OUT MY OTHER LINKS</div>
-              <div className="Link"><a href="">RESUME</a></div>
+              <div className="Link"><a href={resume}>RESUME</a></div>
               <div className="Link"><a href="https://www.linkedin.com/in/chloe-shigeoka-1a9747171/">LINKEDIN</a></div>
               <div className="Link"><a href="https://github.com/cshigeoka">GITHUB</a></div>
             </div>
