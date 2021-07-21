@@ -1,7 +1,17 @@
 .Card {
   position: relative;
-  width: 320px;
-  height: 442px;
+  min-width: 320px;
+  min-height: 442px;
+  margin: 0px 40px;
+}
+
+@media screen and (min-height: 800px) {
+  .top {
+    margin-bottom: 179px;
+  }
+  .bottom {
+    margin-top: 179px;
+  }
 }
 
 .Card-rectangle {
@@ -45,7 +55,7 @@
 
 .Card-image {
   width: 85%;
-  height: 50%;
+  height: 60%;
   margin-top: auto;
   margin-bottom: 7.5%;
 
